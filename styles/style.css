@@ -1,0 +1,126 @@
+body {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6em;
+  color: #363845;
+  margin-bottom: 40px;
+}
+a {
+  color: #CC3311;
+}
+b {
+  font-weight: bold !important;
+}
+.container {
+  padding: 40px 0;
+  width: 600px;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+.contact {
+  float: right;
+}
+.contact img {
+  height: 15px;
+  position: relative;
+  top: 3px;
+}
+.contact li {
+  text-align: right;
+  line-height: 18px;
+}
+h1 {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: #CC3311;
+  line-height: 1em;
+}
+h1 small {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  color: #363845;
+}
+h2 {
+  padding-top: 20px;
+  font-size: 36px;
+  color: #363845;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  clear: both;
+  color: #CC3311;
+}
+.intro {
+  font-size: 18px;
+  margin-bottom: 60px;
+  line-height: 25px;
+  font-style: italic;
+}
+.intro b {
+  font-weight: bold;
+}
+.group {
+  margin-bottom: 10px;
+}
+.group .row {
+  float: left;
+  clear: both;
+  width: 600px;
+  margin-bottom: 15px;
+}
+.group .row .title-container {
+  float: left;
+  width: 150px;
+}
+.group .row .title-container .item-title {
+  display: inline;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-right: 15px;
+}
+.group .row .item-container {
+  float: left;
+  width: 450px;
+}
+.group .row .item-container .item-subtitle {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.table {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.table tbody th,
+.table tbody td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.table tbody th {
+  font-weight: 800;
+  text-align: right;
+  width: 200px;
+  text-transform: uppercase;
+}
+.table tbody td {
+  text-align: left;
+}

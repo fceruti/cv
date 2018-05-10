@@ -1,0 +1,147 @@
+@containerWidth: 600px;
+@titleContainerWidth: 150px;
+@sectionMarginBottom: 60px;
+@titleFont: 'Open Sans', sans-serif;
+@textFont: 'Gentium Basic', serif;
+
+@black: #363845;
+@red: #CC3311;
+
+body{
+    font-family: @textFont;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: @black;
+    margin-bottom: 40px;
+}
+
+a {
+    color: @red;
+}
+b {
+    font-weight: bold !important;
+}
+.container{
+    padding: 40px 0;
+    width: @containerWidth;
+    margin: auto;
+}
+.clear{ clear: both;}
+
+.contact{
+    float: right;
+    img{
+        height: 15px;
+        position: relative;
+        top: 3px;
+    }
+    li{
+        text-align: right;
+        line-height: 18px;
+    }
+}
+
+h1{
+    font-size: 32px;
+    font-family: @titleFont;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: @red;
+    line-height: 1em;
+    small{
+        display: block;
+        font-weight: 400;
+        font-size: 22px;
+        color: @black;
+    }
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 36px;
+    color: @black;
+    font-family: @titleFont;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 14px;
+    font-family: @titleFont;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    clear: both;
+    color: @red;
+}
+
+.intro{
+    font-size: 18px;
+    margin-bottom: @sectionMarginBottom;
+    line-height: 25px;
+    font-style: italic;
+    b {
+        font-weight: bold;
+    }
+}
+
+.group{
+    margin-bottom: 10px;
+    .row{
+        float: left;
+        clear: both;
+        width: @containerWidth;
+        margin-bottom: 15px;
+        .title-container{
+            float: left;
+            width: @titleContainerWidth;
+            .item-title{
+                display: inline;
+                font-size: 14px;
+                font-family: @titleFont;
+                font-weight: 800;
+                text-transform: uppercase;
+                padding-right: 15px;
+            }
+
+        }
+        .item-container{
+            float: left;
+            width: @containerWidth - @titleContainerWidth;
+            .item-subtitle{
+                font-size: 14px;
+                font-family: @titleFont;
+                font-weight: bold;
+            }
+            .item-description{
+
+            }
+        }
+    }
+}
+
+.table {
+    width: 100%;
+    margin-bottom: @sectionMarginBottom;
+    tbody{
+        th, td {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            font-family: @titleFont;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        th{
+            font-weight: 800;
+            text-align: right;
+            width: @containerWidth / 3;
+
+            text-transform: uppercase;
+        }
+        td{
+            text-align: left;
+        }
+    }
+}
