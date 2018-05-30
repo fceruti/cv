@@ -1,14 +1,22 @@
 # Francisco Ceruti
+
 Software Developer
 
-I love to talk about startups and ideas. By nature I'm full stack, since I'm more goal oriented than tool oriented. I consider what I do a craft.
+I love to work startups and new projects. By nature I'm full stack, since I'm more goal oriented than tool oriented. I consider what I do a craft.
 
 ## Experience
 
+### Aug 2016 - Present Freelance developer & consultant
+
+* Created a micro service for reverse address lookup. Handle batch requests, quota limits and errors gracefully.
+* Worked with python, ruby, php, go & java.
+* Community manager for an manufacturing company.
+* Lesson: Keeping a client on the loop, is as much part of the job as writing code.
+
 ### May 2017 – Apr 2018 CTO @ BeeInfluencer
 
-* Designed & implemented from scratch an influencer marketing marketplace.
-* Wrote app using python, django, celery, postgresql, rabbitmq, redis. Heavy use of testing.
+* Played a key role in business strategy decisions.
+* Designed and implemented an influencer marketing marketplace using Python & Django. Heavy use of testing.
 * Configured a 7 node farm (including a production & staging environment) using Ansible.
 * Lesson: Hands on customer support is key to success.
 
@@ -22,6 +30,7 @@ I love to talk about startups and ideas. By nature I'm full stack, since I'm mor
 ### Jan 2014 - Dec 2014 Co-Founder @ Data2win
 
 * Portal to access trade information for chilean companies.
+* Scraped data from websites & cds sent by government.
 * Built using python, mysql & Pentaho.
 * Lesson: Pain killers are better than vitamins.
 
@@ -31,20 +40,20 @@ I love to talk about startups and ideas. By nature I'm full stack, since I'm mor
 * Self funded with freelance work for other companies: mangacorta, pizzapizza & wnutrition.
 * Lesson: network effects are really important, and facebook has won.
 
-### Apr 2011 - Sep 2011 Co-Founder @ BoxStory
+### Apr 2011 - Sep 2011 Co-Founder @ Elelista
 
 * Won competition. Received funding. Stayed for one month in Silicon Valley.
 * Coudn\'t secure second round of finance.
 * Lesson: Don't pivot into a startup you don't want to build.
 
-### Aug 2009 - Jan 2010 Junior Dev @ Unholster
+### Aug 2009 - Jan 2010 Junior Dev @ Cursor
 
 * Wrote an android app.
 * Lesson: You can learn & build anything you want.
 
 ### Jul 2008 - Jul 2009  Co-Founder @ Capisce
 
-* Repaired a VW Kombi and repurpuse it as a mobile pizza kitchen.
+* Repurposed an old VW Kombi as a mobile pizza kitchen.
 * Created the company & brand, appeared in every major chilean newspaper.
 * Lesson: Sales are really important.
 
@@ -67,8 +76,8 @@ I love to talk about startups and ideas. By nature I'm full stack, since I'm mor
 ### Maasaic.com
 
 * Webpage builder. I use it personally to create fceruti.com
+* Built using Python, Django, Ansible and Aws. Soon I’ll be adding React.js.
 * It's an attempt to explore new ways of telling stories. Blogs are too limiting or too complicated.
-* WIP
 
 ### Cinerama.cl
 
